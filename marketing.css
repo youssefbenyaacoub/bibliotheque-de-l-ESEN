@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family:'Belleza';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 243, 243);
+    scroll-behavior: smooth;
+    
+    
+}
+
+   .main-head{
+       background: #1363df;
+       color: white;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       
+   }
+   .nav_links li {
+       display:inline-block;   
+       padding-right: 60px;
+   }
+   .nav_links li a{
+       transition: all 0.3s ease 0s;
+       
+    text-decoration: none;   
+    color: white;
+   }
+   .nav_links li a:hover{
+     font-size: 20px;
+   }
+   #logo{ 
+    width:90px;
+    margin:7px  4px;}
+   
+    .nav_chap li {
+        margin-top:30px;
+        
+    }
+.nav_chap li a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    
+}
+#search #recherche{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+
+}
+#search #recherche{
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 30xp;
+
+}
+#recherche.red{
+    border-color: red;
+}
+#recherche.green{
+    border-color: green;
+}
+#search button{
+    margin-left:10px;
+    font-size: 15px;
+    font-family: 'pacifico';
+    border-radius: 10px;
+    
+
+}
+h3,h4{
+    margin-top:30px;
+    margin-left:30px; 
+    text-transform: capitalize;
+}
+h4{
+    color: rgb(83, 82, 82);
+    font-size: 15px;
+}
+
+hr{
+    align-items: center;
+    width: 50%;
+    
+    border:2px solid #1363df ;
+}
+.youtube{
+    margin-top:100px;
+    margin-left: 460px;
+    border-radius: 20px;
+}
+.links{
+    text-decoration: none;
+}
+#titre{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+font-size: 30px;
+margin-bottom: 100px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+ a h2:hover{
+    font-size:30px; 
+    transition: all 0.3s ease 0s;
+}
+
+
+h3{
+    margin-top: 50px;
+    font-size: 18px;
+}
+.complete{
+    align-items: center;
+    width: 90%;
+    margin: 60px;
+    
+    border:2px solid #1363df ;
+}
+a{
+    color:#1363df;
+}
+a:visited{
+    color:#1363df;
+}
+a:hover{
+    font-size:18px;
+    transition: all 0.5s ease 0s;
+}
+
+
+footer{
+    text-align:center;
+    border-top:2px solid #00a5ec;
+    border-bottom:2px solid#00a5ec;
+    margin-top: 300px;
+
+}

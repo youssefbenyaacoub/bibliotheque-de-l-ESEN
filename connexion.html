@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliotheque De l'ESEN</title>
+    <link rel="stylesheet" href="../css/page1.css"> 
+    <script src="../js/js.js"></script>
+
+</head>
+<body>
+    <header class="main-head">
+       <a href="https://www.esen.tn/portail/" target="_blank"><img id="logo" src="../image/esen-manouba.png" alt="logoesen"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="../index.html">Accueille</a></li>
+    
+            </ul>
+        </nav>
+    </header>
+    <h1 id="titre">connexion</h1>
+    <section id="container">
+ <div id="container_info">     
+<h2>Se connecter à votre compte.</h2>
+<p>Cet espace est réservé seulement aux étudiants de l'ESEN. Si vous rencontrez un problème, n'hésitez pas à nous contacter.</p>
+</div>
+    <fieldset id="connexion">
+
+                <form name="connexion" method="post" action="connexion.php" onsubmit="return validateAndRedirect()">
+             <div id="adress" >
+             <label for="adress" >Adresse:</label>
+                 <input type="email" name="adress" id="adress" placeholder="taper votre Adress" required>
+ 
+             </div>
+             <div class="password">
+             <label for="mtpass">Mot de passe:</label>
+                 <input type="password" name="password" id="mtpass" placeholder="taper votre Mot de pass" required>
+             
+             </div>
+             <div>
+                 <button type="submit">Connexion</button>
+                 <button type="reset">Annuler</button>
+             </div>
+            </form>
+            <div>
+            
+             <button type="submit" onclick="goToNextPage2()">Cree un Nouveau Compte</button>
+           </div>
+         </fieldset>
+    </section>
+    <footer>
+        <h6>Youssef BenYaacoub G1,Houssin Fila G2</h6>	
+        </footer>
+</body>
+</html>

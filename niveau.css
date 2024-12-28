@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family:'Belleza';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 243, 243);
+}
+
+   .main-head{
+       background: #1363df;
+       color: white;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       
+   }
+   .nav_links li {
+       display:inline-block;   
+       padding-right: 60px;
+   }
+   .nav_links li a{
+       transition: all 0.3s ease 0s;
+       
+    text-decoration: none;   
+    color: white;
+   }
+   .nav_links li a:hover{
+     font-size: 20px;
+   }
+   #logo{ 
+    width:90px;
+    margin:7px  4px;
+    
+
+}
+#titre{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+font-size: 60px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.container{
+    
+    width:300px;
+    height: auto;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
+    margin-top:150px;  
+    background-color: #1363df;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+ a h2:hover{
+    font-size:30px; 
+    transition: all 0.3s ease 0s;
+}
+footer{
+    text-align:center;
+    border-top:2px solid #00a5ec;
+    border-bottom:2px solid#00a5ec;
+    margin-top: 300px;
+
+}

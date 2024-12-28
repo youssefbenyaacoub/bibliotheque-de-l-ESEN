@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliotheque De l'ESEN</title>
+    <link rel="stylesheet" href="../css/page1.css">
+    <script src="../js/js.js"></script>
+</head>
+
+<body>
+    <header class="main-head">
+        <a href="https://www.esen.tn/portail/" target="_blank"><img id="logo" src="../image/esen-manouba.png" alt="image_esen"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="../index.html">Accueille</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <h1 id="titre">inscrivez-vous</h1>
+   
+        <div id="container2">
+        <div id="fieldset">
+            <fieldset>
+                <form  onsubmit="return validateForm()">
+                    <div class="container">
+                        <label for="prenomm">&nbsp;&nbsp; Nom:</label>
+                        <input type="text" name="prenomm" id="prenomm" placeholder="ecrivez votre prenom" required>
+                    </div>
+                    <div class="name">
+                        <label for="nom">Prenom:</label>
+                        <input type="text" name="nom" id="nom" placeholder="ecrivez votre nom" required>
+                    </div>
+                    <div class="adress">
+                        <label for="adress">Adresse:</label>
+                        <input type="email" name="adress" id="adress" placeholder="taper votre Adress" required>
+                    </div>
+                    <div class="password">
+                        <label for="mtpass">Mot de passe:</label>
+                        <input type="password" name="password" id="mtpass" placeholder="taper votre Mot de pass"
+                            required>
+                    </div>
+                    <div class="verification">
+                        <label for="Verifier">Verifier Votre Mot de passe:</label>
+                        <input type="password" name="Verifier" id="Verifier" placeholder="Verifier Votre Mot de pass"
+                            required>
+                    </div>
+                    <div class="date">
+                        <label for="naissance">Date de naissance:</label>
+                        <input type="date" name="naissance" id="naissance"  required min="1999-01-01" max="2005-01-01" required>
+                    </div>
+                    <div>
+                        <button type="submit">Cree Mon Compte</button>
+                        <button type="reset">Annuler</button>
+                    </div>
+
+
+                </form>
+            </fieldset>
+        </div>
+        </div>
+    <footer>
+        <h6>Youssef BenYaacoub G1,Houssin Fila G2</h6>
+    </footer>
+</body>
+
+</html>
