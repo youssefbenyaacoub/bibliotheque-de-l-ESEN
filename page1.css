@@ -4,6 +4,12 @@ body{
     margin:0;
     padding: 0;
 }
+#contactt{
+  font-family:'Belleza';
+    margin:0;
+    padding: 0;
+    background-image: url(../image/blue.jpg);
+}
 
 .main-head{
     background: #1363df;
@@ -175,6 +181,34 @@ fieldset {
     font-family: 'Belleza';
   }
   
+
+  #contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+  }
+  #contactinfo form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    
+  }
+
+  #contactinfo form input,textarea{
+    background-color:white;
+    border:1px solid #b5b5ce;
+  }
+
+  #contactimg{
+    width:30%;
+    height:100%;
+  }
   
   footer {
     text-align: center;
@@ -182,6 +216,78 @@ fieldset {
     border-bottom: 2px solid#00a5ec;
   
   }
+  @media (max-width: 1024px) {
+    #container {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        height: auto;
+        border-radius:30px;
+    }
 
+    #imgesen {
+        width: 90%;
+        margin: auto;
+    }
+
+    .paragraphe {
+        font-size: 16px;
+        margin: auto;
+        line-height: 1.4;
+        text-align: justify;
+        width:90%;
+    }
+  
+
+    #titre {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav_links {
+       display: flex;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+    }
+
+    #logo {
+        width: 70px;
+    }
+    #container {
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        width: 90%;
+        border-radius:30px;
+    }
+
+    #imgesen {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    #titre {
+        font-size: 28px;
+    }
+    #container {
+      margin: auto;
+      width: 90%;
+      border-radius:30px;
+  }
+
+}
+    .paragraphe {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+  
 
 
